@@ -36,6 +36,7 @@ class CustomDropdown extends StatelessWidget {
           DropdownButtonFormField(
             value: value,
             onChanged: onChanged,
+            isExpanded: true,
             hint: hintText != null
                 ? Text(
                     hintText!,
@@ -49,6 +50,7 @@ class CustomDropdown extends StatelessWidget {
                     alignment: Alignment.centerLeft,
                     child: Text(
                       e.text,
+                      softWrap: true,
                       style: Theme.of(context).textTheme.bodyLarge?.copyWith(
                             color: AppColors.black,
                           ),
