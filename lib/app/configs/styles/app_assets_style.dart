@@ -1,1 +1,3 @@
-class AppAssets {}
+class AppAssets {
+  static const logo = 'assets/logo.png';
+}

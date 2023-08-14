@@ -6,6 +6,7 @@ class AppTheme {
         brightness: Brightness.light,
         primaryColor: AppColors.primary,
         visualDensity: VisualDensity.adaptivePlatformDensity,
+        scaffoldBackgroundColor: AppColors.lightGray,
 
         // TextTheme
         textTheme: const TextTheme(
